@@ -1,0 +1,26 @@
+.header {
+    background: #1c1c1c;
+    color: #fff;
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link {
+        padding: 0.5rem 1rem;
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+            color: #41dcff;
+        }
+    }
+}
